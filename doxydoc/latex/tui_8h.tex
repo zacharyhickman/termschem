@@ -1,0 +1,161 @@
+\hypertarget{tui_8h}{}\section{include/tui.h File Reference}
+\label{tui_8h}\index{include/tui.\+h@{include/tui.\+h}}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=212pt]{tui_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{tui_8h_a3e14de130f00b1dbd4ca02ddf5623e71}{C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+W\+H\+I\+T\+E\+\_\+\+B\+L\+A\+CK}~1
+\begin{DoxyCompactList}\small\item\em Define color pair indexes to use with ncurses. \end{DoxyCompactList}\item 
+\#define \hyperlink{tui_8h_ad13525c8d019e074e260b53dd183f4a4}{C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+B\+L\+A\+C\+K\+\_\+\+W\+H\+I\+TE}~2
+\item 
+\#define \hyperlink{tui_8h_aa3e669c9eb82b0cad4f4559695138b45}{C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+W\+H\+I\+T\+E\+\_\+\+B\+L\+UE}~3
+\item 
+\#define \hyperlink{tui_8h_a418937537dbeb18fb35c7b7d6f743c20}{C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+B\+L\+U\+E\+\_\+\+W\+H\+I\+TE}~4
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{tui_8h_a50220f3c4859104f84b4b5b06f6074fe}{tui\+\_\+handle\+\_\+input} ()
+\item 
+void \hyperlink{tui_8h_a933a448d1adf3cac78fd3a75f729a521}{tui\+\_\+resize\+\_\+handler} (int sig)
+\item 
+void \hyperlink{tui_8h_a273e0f27732fe6b4c2644927a14e9428}{tui\+\_\+init} ()
+\begin{DoxyCompactList}\small\item\em H\+I\+FN Initializes the UI interface, and panels. \end{DoxyCompactList}\item 
+void \hyperlink{tui_8h_aad57a653d5bc57141d3bb73b4a29b9e9}{tui\+\_\+stop} ()
+\begin{DoxyCompactList}\small\item\em H\+I\+FN Deinitializes the UI interface and panels. \end{DoxyCompactList}\item 
+void \hyperlink{tui_8h_a37ebe23d01d303deb649c64afb7b68ea}{tui\+\_\+update\+\_\+ui} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{tui_8h_ad13525c8d019e074e260b53dd183f4a4}\label{tui_8h_ad13525c8d019e074e260b53dd183f4a4}} 
+\index{tui.\+h@{tui.\+h}!C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+B\+L\+A\+C\+K\+\_\+\+W\+H\+I\+TE@{C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+B\+L\+A\+C\+K\+\_\+\+W\+H\+I\+TE}}
+\index{C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+B\+L\+A\+C\+K\+\_\+\+W\+H\+I\+TE@{C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+B\+L\+A\+C\+K\+\_\+\+W\+H\+I\+TE}!tui.\+h@{tui.\+h}}
+\subsubsection{\texorpdfstring{C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+B\+L\+A\+C\+K\+\_\+\+W\+H\+I\+TE}{COLORPAIR\_BLACK\_WHITE}}
+{\footnotesize\ttfamily \#define C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+B\+L\+A\+C\+K\+\_\+\+W\+H\+I\+TE~2}
+
+\mbox{\Hypertarget{tui_8h_a418937537dbeb18fb35c7b7d6f743c20}\label{tui_8h_a418937537dbeb18fb35c7b7d6f743c20}} 
+\index{tui.\+h@{tui.\+h}!C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+B\+L\+U\+E\+\_\+\+W\+H\+I\+TE@{C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+B\+L\+U\+E\+\_\+\+W\+H\+I\+TE}}
+\index{C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+B\+L\+U\+E\+\_\+\+W\+H\+I\+TE@{C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+B\+L\+U\+E\+\_\+\+W\+H\+I\+TE}!tui.\+h@{tui.\+h}}
+\subsubsection{\texorpdfstring{C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+B\+L\+U\+E\+\_\+\+W\+H\+I\+TE}{COLORPAIR\_BLUE\_WHITE}}
+{\footnotesize\ttfamily \#define C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+B\+L\+U\+E\+\_\+\+W\+H\+I\+TE~4}
+
+\mbox{\Hypertarget{tui_8h_a3e14de130f00b1dbd4ca02ddf5623e71}\label{tui_8h_a3e14de130f00b1dbd4ca02ddf5623e71}} 
+\index{tui.\+h@{tui.\+h}!C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+W\+H\+I\+T\+E\+\_\+\+B\+L\+A\+CK@{C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+W\+H\+I\+T\+E\+\_\+\+B\+L\+A\+CK}}
+\index{C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+W\+H\+I\+T\+E\+\_\+\+B\+L\+A\+CK@{C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+W\+H\+I\+T\+E\+\_\+\+B\+L\+A\+CK}!tui.\+h@{tui.\+h}}
+\subsubsection{\texorpdfstring{C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+W\+H\+I\+T\+E\+\_\+\+B\+L\+A\+CK}{COLORPAIR\_WHITE\_BLACK}}
+{\footnotesize\ttfamily \#define C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+W\+H\+I\+T\+E\+\_\+\+B\+L\+A\+CK~1}
+
+
+
+Define color pair indexes to use with ncurses. 
+
+\mbox{\Hypertarget{tui_8h_aa3e669c9eb82b0cad4f4559695138b45}\label{tui_8h_aa3e669c9eb82b0cad4f4559695138b45}} 
+\index{tui.\+h@{tui.\+h}!C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+W\+H\+I\+T\+E\+\_\+\+B\+L\+UE@{C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+W\+H\+I\+T\+E\+\_\+\+B\+L\+UE}}
+\index{C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+W\+H\+I\+T\+E\+\_\+\+B\+L\+UE@{C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+W\+H\+I\+T\+E\+\_\+\+B\+L\+UE}!tui.\+h@{tui.\+h}}
+\subsubsection{\texorpdfstring{C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+W\+H\+I\+T\+E\+\_\+\+B\+L\+UE}{COLORPAIR\_WHITE\_BLUE}}
+{\footnotesize\ttfamily \#define C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+W\+H\+I\+T\+E\+\_\+\+B\+L\+UE~3}
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{tui_8h_a50220f3c4859104f84b4b5b06f6074fe}\label{tui_8h_a50220f3c4859104f84b4b5b06f6074fe}} 
+\index{tui.\+h@{tui.\+h}!tui\+\_\+handle\+\_\+input@{tui\+\_\+handle\+\_\+input}}
+\index{tui\+\_\+handle\+\_\+input@{tui\+\_\+handle\+\_\+input}!tui.\+h@{tui.\+h}}
+\subsubsection{\texorpdfstring{tui\+\_\+handle\+\_\+input()}{tui\_handle\_input()}}
+{\footnotesize\ttfamily int tui\+\_\+handle\+\_\+input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{tui_8h_a50220f3c4859104f84b4b5b06f6074fe_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{tui_8h_a273e0f27732fe6b4c2644927a14e9428}\label{tui_8h_a273e0f27732fe6b4c2644927a14e9428}} 
+\index{tui.\+h@{tui.\+h}!tui\+\_\+init@{tui\+\_\+init}}
+\index{tui\+\_\+init@{tui\+\_\+init}!tui.\+h@{tui.\+h}}
+\subsubsection{\texorpdfstring{tui\+\_\+init()}{tui\_init()}}
+{\footnotesize\ttfamily void tui\+\_\+init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+H\+I\+FN Initializes the UI interface, and panels. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{tui_8h_a273e0f27732fe6b4c2644927a14e9428_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{tui_8h_a273e0f27732fe6b4c2644927a14e9428_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{tui_8h_a933a448d1adf3cac78fd3a75f729a521}\label{tui_8h_a933a448d1adf3cac78fd3a75f729a521}} 
+\index{tui.\+h@{tui.\+h}!tui\+\_\+resize\+\_\+handler@{tui\+\_\+resize\+\_\+handler}}
+\index{tui\+\_\+resize\+\_\+handler@{tui\+\_\+resize\+\_\+handler}!tui.\+h@{tui.\+h}}
+\subsubsection{\texorpdfstring{tui\+\_\+resize\+\_\+handler()}{tui\_resize\_handler()}}
+{\footnotesize\ttfamily void tui\+\_\+resize\+\_\+handler (\begin{DoxyParamCaption}\item[{int}]{sig }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{tui_8h_a933a448d1adf3cac78fd3a75f729a521_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{tui_8h_a933a448d1adf3cac78fd3a75f729a521_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{tui_8h_aad57a653d5bc57141d3bb73b4a29b9e9}\label{tui_8h_aad57a653d5bc57141d3bb73b4a29b9e9}} 
+\index{tui.\+h@{tui.\+h}!tui\+\_\+stop@{tui\+\_\+stop}}
+\index{tui\+\_\+stop@{tui\+\_\+stop}!tui.\+h@{tui.\+h}}
+\subsubsection{\texorpdfstring{tui\+\_\+stop()}{tui\_stop()}}
+{\footnotesize\ttfamily void tui\+\_\+stop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+H\+I\+FN Deinitializes the UI interface and panels. 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{tui_8h_aad57a653d5bc57141d3bb73b4a29b9e9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{tui_8h_a37ebe23d01d303deb649c64afb7b68ea}\label{tui_8h_a37ebe23d01d303deb649c64afb7b68ea}} 
+\index{tui.\+h@{tui.\+h}!tui\+\_\+update\+\_\+ui@{tui\+\_\+update\+\_\+ui}}
+\index{tui\+\_\+update\+\_\+ui@{tui\+\_\+update\+\_\+ui}!tui.\+h@{tui.\+h}}
+\subsubsection{\texorpdfstring{tui\+\_\+update\+\_\+ui()}{tui\_update\_ui()}}
+{\footnotesize\ttfamily void tui\+\_\+update\+\_\+ui (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{tui_8h_a37ebe23d01d303deb649c64afb7b68ea_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{tui_8h_a37ebe23d01d303deb649c64afb7b68ea_icgraph}
+\end{center}
+\end{figure}

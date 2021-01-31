@@ -1,0 +1,183 @@
+\begin{theindex}
+
+  \item {A\+R\+R\+A\+Y\+\_\+\+S\+I\+ZE}
+    \subitem {arrayhelper.\+h}, \hyperpage{6}
+  \item {arrayhelper.\+h}
+    \subitem {A\+R\+R\+A\+Y\+\_\+\+S\+I\+ZE}, \hyperpage{6}
+
+  \indexspace
+
+  \item {C\+H\+A\+R\+\_\+\+E\+SC}
+    \subitem {charhelper.\+h}, \hyperpage{6}
+  \item {C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+B\+L\+A\+C\+K\+\_\+\+W\+H\+I\+TE}
+    \subitem {tui.\+h}, \hyperpage{9}
+  \item {C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+B\+L\+U\+E\+\_\+\+W\+H\+I\+TE}
+    \subitem {tui.\+h}, \hyperpage{10}
+  \item {C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+W\+H\+I\+T\+E\+\_\+\+B\+L\+A\+CK}
+    \subitem {tui.\+h}, \hyperpage{10}
+  \item {C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+W\+H\+I\+T\+E\+\_\+\+B\+L\+UE}
+    \subitem {tui.\+h}, \hyperpage{10}
+  \item {caught\+\_\+sigint}
+    \subitem {main.\+c}, \hyperpage{16}
+  \item {charhelper.\+h}
+    \subitem {C\+H\+A\+R\+\_\+\+E\+SC}, \hyperpage{6}
+
+  \indexspace
+
+  \item {D\+E\+C\+L\+A\+R\+E\+\_\+\+M\+U\+T\+E\+X\+\_\+\+E\+X\+T\+E\+RN}
+    \subitem {mtxhelper.\+h}, \hyperpage{8}
+  \item {D\+E\+C\+L\+A\+R\+E\+\_\+\+M\+U\+T\+E\+X\+\_\+\+V\+AR}
+    \subitem {mtxhelper.\+h}, \hyperpage{8}
+  \item {do\+\_\+exit}
+    \subitem {main.\+c}, \hyperpage{16}
+
+  \indexspace
+
+  \item {I\+N\+I\+T\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX}
+    \subitem {mtxhelper.\+h}, \hyperpage{8}
+  \item {include/arrayhelper.\+h}, \hyperpage{5}
+  \item {include/charhelper.\+h}, \hyperpage{6}
+  \item {include/mtxhelper.\+h}, \hyperpage{7}
+  \item {include/tui.\+h}, \hyperpage{9}
+
+  \indexspace
+
+  \item {L\+O\+C\+K\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX}
+    \subitem {mtxhelper.\+h}, \hyperpage{8}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\+c}, \hyperpage{14}
+  \item {main.\+c}
+    \subitem {caught\+\_\+sigint}, \hyperpage{16}
+    \subitem {do\+\_\+exit}, \hyperpage{16}
+    \subitem {main}, \hyperpage{14}
+    \subitem {main\+\_\+int\+\_\+handler}, \hyperpage{15}
+    \subitem {thread\+\_\+tui\+\_\+process}, \hyperpage{15}
+    \subitem {tid\+\_\+tui}, \hyperpage{16}
+  \item {main\+\_\+int\+\_\+handler}
+    \subitem {main.\+c}, \hyperpage{15}
+  \item {mtxhelper.\+h}
+    \subitem {D\+E\+C\+L\+A\+R\+E\+\_\+\+M\+U\+T\+E\+X\+\_\+\+E\+X\+T\+E\+RN}, 
+		\hyperpage{8}
+    \subitem {D\+E\+C\+L\+A\+R\+E\+\_\+\+M\+U\+T\+E\+X\+\_\+\+V\+AR}, 
+		\hyperpage{8}
+    \subitem {I\+N\+I\+T\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX}, 
+		\hyperpage{8}
+    \subitem {L\+O\+C\+K\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX}, 
+		\hyperpage{8}
+    \subitem {S\+E\+T\+\_\+\+M\+U\+T\+E\+X\+\_\+\+V\+AR}, \hyperpage{8}
+    \subitem {U\+N\+L\+O\+C\+K\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX}, 
+		\hyperpage{8}
+
+  \indexspace
+
+  \item {panel\+\_\+info}
+    \subitem {tui.\+c}, \hyperpage{23}
+  \item {panel\+\_\+notify\+\_\+exit}
+    \subitem {tui.\+c}, \hyperpage{24}
+  \item {panel\+\_\+option\+\_\+menu}
+    \subitem {tui.\+c}, \hyperpage{24}
+  \item {panel\+\_\+schem\+\_\+viewer}
+    \subitem {tui.\+c}, \hyperpage{24}
+  \item {panel\+\_\+src\+\_\+browser}
+    \subitem {tui.\+c}, \hyperpage{24}
+
+  \indexspace
+
+  \item {S\+E\+T\+\_\+\+M\+U\+T\+E\+X\+\_\+\+V\+AR}
+    \subitem {mtxhelper.\+h}, \hyperpage{8}
+  \item {src/main.\+c}, \hyperpage{13}
+  \item {src/tui.\+c}, \hyperpage{16}
+
+  \indexspace
+
+  \item {thread\+\_\+tui\+\_\+process}
+    \subitem {main.\+c}, \hyperpage{15}
+  \item {tid\+\_\+tui}
+    \subitem {main.\+c}, \hyperpage{16}
+  \item {tui.\+c}
+    \subitem {panel\+\_\+info}, \hyperpage{23}
+    \subitem {panel\+\_\+notify\+\_\+exit}, \hyperpage{24}
+    \subitem {panel\+\_\+option\+\_\+menu}, \hyperpage{24}
+    \subitem {panel\+\_\+schem\+\_\+viewer}, \hyperpage{24}
+    \subitem {panel\+\_\+src\+\_\+browser}, \hyperpage{24}
+    \subitem {tui\+\_\+draw\+\_\+menu\+\_\+main}, \hyperpage{17}
+    \subitem {tui\+\_\+draw\+\_\+panel\+\_\+info}, \hyperpage{17}
+    \subitem {tui\+\_\+draw\+\_\+panel\+\_\+notify\+\_\+exit}, 
+		\hyperpage{18}
+    \subitem {tui\+\_\+draw\+\_\+panel\+\_\+option\+\_\+menu}, 
+		\hyperpage{18}
+    \subitem {tui\+\_\+draw\+\_\+panel\+\_\+schem\+\_\+viewer}, 
+		\hyperpage{18}
+    \subitem {tui\+\_\+draw\+\_\+panel\+\_\+src\+\_\+browser}, 
+		\hyperpage{19}
+    \subitem {tui\+\_\+draw\+\_\+window\+\_\+base}, \hyperpage{19}
+    \subitem {tui\+\_\+handle\+\_\+input}, \hyperpage{19}
+    \subitem {tui\+\_\+init}, \hyperpage{20}
+    \subitem {tui\+\_\+resize\+\_\+handler}, \hyperpage{20}
+    \subitem {tui\+\_\+resize\+\_\+panel}, \hyperpage{21}
+    \subitem {tui\+\_\+stop}, \hyperpage{22}
+    \subitem {tui\+\_\+update\+\_\+terminal\+\_\+size}, \hyperpage{22}
+    \subitem {tui\+\_\+update\+\_\+ui}, \hyperpage{22}
+    \subitem {window\+\_\+base}, \hyperpage{24}
+  \item {tui.\+h}
+    \subitem {C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+B\+L\+A\+C\+K\+\_\+\+W\+H\+I\+TE}, 
+		\hyperpage{9}
+    \subitem {C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+B\+L\+U\+E\+\_\+\+W\+H\+I\+TE}, 
+		\hyperpage{10}
+    \subitem {C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+W\+H\+I\+T\+E\+\_\+\+B\+L\+A\+CK}, 
+		\hyperpage{10}
+    \subitem {C\+O\+L\+O\+R\+P\+A\+I\+R\+\_\+\+W\+H\+I\+T\+E\+\_\+\+B\+L\+UE}, 
+		\hyperpage{10}
+    \subitem {tui\+\_\+handle\+\_\+input}, \hyperpage{10}
+    \subitem {tui\+\_\+init}, \hyperpage{10}
+    \subitem {tui\+\_\+resize\+\_\+handler}, \hyperpage{11}
+    \subitem {tui\+\_\+stop}, \hyperpage{12}
+    \subitem {tui\+\_\+update\+\_\+ui}, \hyperpage{12}
+  \item {tui\+\_\+draw\+\_\+menu\+\_\+main}
+    \subitem {tui.\+c}, \hyperpage{17}
+  \item {tui\+\_\+draw\+\_\+panel\+\_\+info}
+    \subitem {tui.\+c}, \hyperpage{17}
+  \item {tui\+\_\+draw\+\_\+panel\+\_\+notify\+\_\+exit}
+    \subitem {tui.\+c}, \hyperpage{18}
+  \item {tui\+\_\+draw\+\_\+panel\+\_\+option\+\_\+menu}
+    \subitem {tui.\+c}, \hyperpage{18}
+  \item {tui\+\_\+draw\+\_\+panel\+\_\+schem\+\_\+viewer}
+    \subitem {tui.\+c}, \hyperpage{18}
+  \item {tui\+\_\+draw\+\_\+panel\+\_\+src\+\_\+browser}
+    \subitem {tui.\+c}, \hyperpage{19}
+  \item {tui\+\_\+draw\+\_\+window\+\_\+base}
+    \subitem {tui.\+c}, \hyperpage{19}
+  \item {tui\+\_\+handle\+\_\+input}
+    \subitem {tui.\+c}, \hyperpage{19}
+    \subitem {tui.\+h}, \hyperpage{10}
+  \item {tui\+\_\+init}
+    \subitem {tui.\+c}, \hyperpage{20}
+    \subitem {tui.\+h}, \hyperpage{10}
+  \item {tui\+\_\+resize\+\_\+handler}
+    \subitem {tui.\+c}, \hyperpage{20}
+    \subitem {tui.\+h}, \hyperpage{11}
+  \item {tui\+\_\+resize\+\_\+panel}
+    \subitem {tui.\+c}, \hyperpage{21}
+  \item {tui\+\_\+stop}
+    \subitem {tui.\+c}, \hyperpage{22}
+    \subitem {tui.\+h}, \hyperpage{12}
+  \item {tui\+\_\+update\+\_\+terminal\+\_\+size}
+    \subitem {tui.\+c}, \hyperpage{22}
+  \item {tui\+\_\+update\+\_\+ui}
+    \subitem {tui.\+c}, \hyperpage{22}
+    \subitem {tui.\+h}, \hyperpage{12}
+
+  \indexspace
+
+  \item {U\+N\+L\+O\+C\+K\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX}
+    \subitem {mtxhelper.\+h}, \hyperpage{8}
+
+  \indexspace
+
+  \item {window\+\_\+base}
+    \subitem {tui.\+c}, \hyperpage{24}
+
+\end{theindex}

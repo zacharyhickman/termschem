@@ -1,0 +1,7 @@
+<map id="tui_draw_panel_src_browser" name="tui_draw_panel_src_browser">
+<area shape="rect" id="node2" href="$tui_8h.html#a37ebe23d01d303deb649c64afb7b68ea" title="tui_update_ui" alt="" coords="188,13,287,39"/>
+<area shape="rect" id="node3" href="$main_8c.html#a20debbe95676c5ff3a1a27dbfa796ae9" title="Threaded function for TUI. " alt="" coords="617,38,749,65"/>
+<area shape="rect" id="node5" href="$tui_8h.html#a933a448d1adf3cac78fd3a75f729a521" title="tui_resize_handler" alt="" coords="335,38,461,65"/>
+<area shape="rect" id="node4" href="$main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="797,63,848,90"/>
+<area shape="rect" id="node6" href="$tui_8h.html#a273e0f27732fe6b4c2644927a14e9428" title="HIFN Initializes the UI interface, and panels. " alt="" coords="509,38,569,65"/>
+</map>

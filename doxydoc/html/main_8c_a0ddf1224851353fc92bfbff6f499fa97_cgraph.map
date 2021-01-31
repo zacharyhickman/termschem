@@ -1,0 +1,18 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$tui_8c.html#a933a448d1adf3cac78fd3a75f729a521" title="tui_resize_handler" alt="" coords="448,87,575,113"/>
+<area shape="rect" id="node13" href="$main_8c.html#a1a87b5de5ced9dbf84b4feefc3b01ccf" title="Catches SIGINT, and flags an exit is requested. " alt="" coords="110,188,230,215"/>
+<area shape="rect" id="node14" href="$main_8c.html#a20debbe95676c5ff3a1a27dbfa796ae9" title="Threaded function for TUI. " alt="" coords="104,137,236,164"/>
+<area shape="rect" id="node3" href="$tui_8c.html#a0b806bb14243bf0259f03648dc23f9be" title="tui_update_terminal_size" alt="" coords="623,36,789,63"/>
+<area shape="rect" id="node4" href="$tui_8c.html#ae858f3690f75bd2604de07d3c53f7f8c" title="tui_resize_panel" alt="" coords="648,87,764,113"/>
+<area shape="rect" id="node5" href="$tui_8c.html#a37ebe23d01d303deb649c64afb7b68ea" title="tui_update_ui" alt="" coords="657,188,755,215"/>
+<area shape="rect" id="node6" href="$tui_8c.html#a1950cd06f7947f91941838bf3ed64f7f" title="tui_draw_window_base" alt="" coords="854,5,1011,32"/>
+<area shape="rect" id="node7" href="$tui_8c.html#aa0edec0264532eb82d3b5cde3c11160e" title="tui_draw_panel_src\l_browser" alt="" coords="865,57,1000,98"/>
+<area shape="rect" id="node8" href="$tui_8c.html#abd6db3f802be383d230bc2249d3a6652" title="tui_draw_panel_schem\l_viewer" alt="" coords="855,122,1010,163"/>
+<area shape="rect" id="node9" href="$tui_8c.html#a54881c6b451cb64d9885435dea38f0e3" title="tui_draw_panel_info" alt="" coords="864,188,1001,215"/>
+<area shape="rect" id="node10" href="$tui_8c.html#a7bda53a19c8ccfc47315be86386127c8" title="tui_draw_panel_option_menu" alt="" coords="837,239,1028,265"/>
+<area shape="rect" id="node11" href="$tui_8c.html#a846538693ed09ad0b9d77bac54f670e6" title="tui_draw_panel_notify_exit" alt="" coords="845,289,1021,316"/>
+<area shape="rect" id="node12" href="$tui_8c.html#abb0281366396994ce0f56021e9927672" title="tui_draw_menu_main" alt="" coords="860,340,1005,367"/>
+<area shape="rect" id="node15" href="$tui_8c.html#a273e0f27732fe6b4c2644927a14e9428" title="HIFN Initializes the UI interface, and panels. " alt="" coords="312,36,372,63"/>
+<area shape="rect" id="node16" href="$tui_8c.html#a50220f3c4859104f84b4b5b06f6074fe" title="tui_handle_input" alt="" coords="284,137,400,164"/>
+<area shape="rect" id="node17" href="$tui_8c.html#aad57a653d5bc57141d3bb73b4a29b9e9" title="HIFN Deinitializes the UI interface and panels. " alt="" coords="308,188,376,215"/>
+</map>

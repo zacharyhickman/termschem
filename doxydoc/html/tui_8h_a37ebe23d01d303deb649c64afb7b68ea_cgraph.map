@@ -1,0 +1,9 @@
+<map id="tui_update_ui" name="tui_update_ui">
+<area shape="rect" id="node2" href="$tui_8c.html#a1950cd06f7947f91941838bf3ed64f7f" title="tui_draw_window_base" alt="" coords="169,5,326,32"/>
+<area shape="rect" id="node3" href="$tui_8c.html#aa0edec0264532eb82d3b5cde3c11160e" title="tui_draw_panel_src\l_browser" alt="" coords="180,57,315,98"/>
+<area shape="rect" id="node4" href="$tui_8c.html#abd6db3f802be383d230bc2249d3a6652" title="tui_draw_panel_schem\l_viewer" alt="" coords="170,122,325,163"/>
+<area shape="rect" id="node5" href="$tui_8c.html#a54881c6b451cb64d9885435dea38f0e3" title="tui_draw_panel_info" alt="" coords="179,188,316,215"/>
+<area shape="rect" id="node6" href="$tui_8c.html#a7bda53a19c8ccfc47315be86386127c8" title="tui_draw_panel_option_menu" alt="" coords="152,239,343,265"/>
+<area shape="rect" id="node7" href="$tui_8c.html#a846538693ed09ad0b9d77bac54f670e6" title="tui_draw_panel_notify_exit" alt="" coords="159,289,335,316"/>
+<area shape="rect" id="node8" href="$tui_8c.html#abb0281366396994ce0f56021e9927672" title="tui_draw_menu_main" alt="" coords="175,340,320,367"/>
+</map>

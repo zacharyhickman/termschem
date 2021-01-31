@@ -1,0 +1,7 @@
+---
+build/test/mocks/mock_ncurses.c:
+- TEST
+src/tui.c:
+- TEST
+build/test/mocks/mock_panel.c:
+- TEST

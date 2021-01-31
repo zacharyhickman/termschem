@@ -1,0 +1,97 @@
+\hypertarget{mtxhelper_8h}{}\section{include/mtxhelper.h File Reference}
+\label{mtxhelper_8h}\index{include/mtxhelper.\+h@{include/mtxhelper.\+h}}
+
+
+A set of macros that help create, init, and control mutexes with variables.  
+
+
+{\ttfamily \#include $<$pthread.\+h$>$}\newline
+Include dependency graph for mtxhelper.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=181pt]{mtxhelper_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=181pt]{mtxhelper_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{mtxhelper_8h_af516bef484794c1e4ab0c3c344c3a2ba}{D\+E\+C\+L\+A\+R\+E\+\_\+\+M\+U\+T\+E\+X\+\_\+\+E\+X\+T\+E\+RN}(type,  name)~extern type name;
+\item 
+\#define \hyperlink{mtxhelper_8h_a0e72c8e164264aff1892337465db1698}{D\+E\+C\+L\+A\+R\+E\+\_\+\+M\+U\+T\+E\+X\+\_\+\+V\+AR}(type,  name)
+\item 
+\#define \hyperlink{mtxhelper_8h_a876dd8acada7f0e8102e6faeb82d1efa}{I\+N\+I\+T\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX}(name)~pthread\+\_\+mutex\+\_\+init(\&name\+\_\+mutex, N\+U\+LL);
+\item 
+\#define \hyperlink{mtxhelper_8h_a55c0f67bdaea782c1da1e4642d6af0c2}{L\+O\+C\+K\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX}(name)~pthread\+\_\+mutex\+\_\+lock(\&name\+\_\+mutex);
+\item 
+\#define \hyperlink{mtxhelper_8h_a32b4edda6cc315ec81e72099c7073258}{U\+N\+L\+O\+C\+K\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX}(name)~pthread\+\_\+mutex\+\_\+unlock(\&name\+\_\+mutex);
+\item 
+\#define \hyperlink{mtxhelper_8h_a8d14cf3c28e9f1ed04025e7e34f584dc}{S\+E\+T\+\_\+\+M\+U\+T\+E\+X\+\_\+\+V\+AR}(name,  value)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A set of macros that help create, init, and control mutexes with variables. 
+
+\begin{DoxyAuthor}{Author}
+Zachary T. Hickman (zhickman) 
+\end{DoxyAuthor}
+\begin{DoxyRefDesc}{Bug}
+\item[\hyperlink{bug__bug000002}{Bug}]No known bugs. \end{DoxyRefDesc}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{mtxhelper_8h_af516bef484794c1e4ab0c3c344c3a2ba}\label{mtxhelper_8h_af516bef484794c1e4ab0c3c344c3a2ba}} 
+\index{mtxhelper.\+h@{mtxhelper.\+h}!D\+E\+C\+L\+A\+R\+E\+\_\+\+M\+U\+T\+E\+X\+\_\+\+E\+X\+T\+E\+RN@{D\+E\+C\+L\+A\+R\+E\+\_\+\+M\+U\+T\+E\+X\+\_\+\+E\+X\+T\+E\+RN}}
+\index{D\+E\+C\+L\+A\+R\+E\+\_\+\+M\+U\+T\+E\+X\+\_\+\+E\+X\+T\+E\+RN@{D\+E\+C\+L\+A\+R\+E\+\_\+\+M\+U\+T\+E\+X\+\_\+\+E\+X\+T\+E\+RN}!mtxhelper.\+h@{mtxhelper.\+h}}
+\subsubsection{\texorpdfstring{D\+E\+C\+L\+A\+R\+E\+\_\+\+M\+U\+T\+E\+X\+\_\+\+E\+X\+T\+E\+RN}{DECLARE\_MUTEX\_EXTERN}}
+{\footnotesize\ttfamily \#define D\+E\+C\+L\+A\+R\+E\+\_\+\+M\+U\+T\+E\+X\+\_\+\+E\+X\+T\+E\+RN(\begin{DoxyParamCaption}\item[{}]{type,  }\item[{}]{name }\end{DoxyParamCaption})~extern type name;}
+
+\mbox{\Hypertarget{mtxhelper_8h_a0e72c8e164264aff1892337465db1698}\label{mtxhelper_8h_a0e72c8e164264aff1892337465db1698}} 
+\index{mtxhelper.\+h@{mtxhelper.\+h}!D\+E\+C\+L\+A\+R\+E\+\_\+\+M\+U\+T\+E\+X\+\_\+\+V\+AR@{D\+E\+C\+L\+A\+R\+E\+\_\+\+M\+U\+T\+E\+X\+\_\+\+V\+AR}}
+\index{D\+E\+C\+L\+A\+R\+E\+\_\+\+M\+U\+T\+E\+X\+\_\+\+V\+AR@{D\+E\+C\+L\+A\+R\+E\+\_\+\+M\+U\+T\+E\+X\+\_\+\+V\+AR}!mtxhelper.\+h@{mtxhelper.\+h}}
+\subsubsection{\texorpdfstring{D\+E\+C\+L\+A\+R\+E\+\_\+\+M\+U\+T\+E\+X\+\_\+\+V\+AR}{DECLARE\_MUTEX\_VAR}}
+{\footnotesize\ttfamily \#define D\+E\+C\+L\+A\+R\+E\+\_\+\+M\+U\+T\+E\+X\+\_\+\+V\+AR(\begin{DoxyParamCaption}\item[{}]{type,  }\item[{}]{name }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}
+\textcolor{keyword}{volatile} type name; \(\backslash\)
+    pthread\_mutex\_t name\_mutex;
+\end{DoxyCode}
+\mbox{\Hypertarget{mtxhelper_8h_a876dd8acada7f0e8102e6faeb82d1efa}\label{mtxhelper_8h_a876dd8acada7f0e8102e6faeb82d1efa}} 
+\index{mtxhelper.\+h@{mtxhelper.\+h}!I\+N\+I\+T\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX@{I\+N\+I\+T\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX}}
+\index{I\+N\+I\+T\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX@{I\+N\+I\+T\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX}!mtxhelper.\+h@{mtxhelper.\+h}}
+\subsubsection{\texorpdfstring{I\+N\+I\+T\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX}{INIT\_VAR\_MUTEX}}
+{\footnotesize\ttfamily \#define I\+N\+I\+T\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX(\begin{DoxyParamCaption}\item[{}]{name }\end{DoxyParamCaption})~pthread\+\_\+mutex\+\_\+init(\&name\+\_\+mutex, N\+U\+LL);}
+
+\mbox{\Hypertarget{mtxhelper_8h_a55c0f67bdaea782c1da1e4642d6af0c2}\label{mtxhelper_8h_a55c0f67bdaea782c1da1e4642d6af0c2}} 
+\index{mtxhelper.\+h@{mtxhelper.\+h}!L\+O\+C\+K\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX@{L\+O\+C\+K\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX}}
+\index{L\+O\+C\+K\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX@{L\+O\+C\+K\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX}!mtxhelper.\+h@{mtxhelper.\+h}}
+\subsubsection{\texorpdfstring{L\+O\+C\+K\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX}{LOCK\_VAR\_MUTEX}}
+{\footnotesize\ttfamily \#define L\+O\+C\+K\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX(\begin{DoxyParamCaption}\item[{}]{name }\end{DoxyParamCaption})~pthread\+\_\+mutex\+\_\+lock(\&name\+\_\+mutex);}
+
+\mbox{\Hypertarget{mtxhelper_8h_a8d14cf3c28e9f1ed04025e7e34f584dc}\label{mtxhelper_8h_a8d14cf3c28e9f1ed04025e7e34f584dc}} 
+\index{mtxhelper.\+h@{mtxhelper.\+h}!S\+E\+T\+\_\+\+M\+U\+T\+E\+X\+\_\+\+V\+AR@{S\+E\+T\+\_\+\+M\+U\+T\+E\+X\+\_\+\+V\+AR}}
+\index{S\+E\+T\+\_\+\+M\+U\+T\+E\+X\+\_\+\+V\+AR@{S\+E\+T\+\_\+\+M\+U\+T\+E\+X\+\_\+\+V\+AR}!mtxhelper.\+h@{mtxhelper.\+h}}
+\subsubsection{\texorpdfstring{S\+E\+T\+\_\+\+M\+U\+T\+E\+X\+\_\+\+V\+AR}{SET\_MUTEX\_VAR}}
+{\footnotesize\ttfamily \#define S\+E\+T\+\_\+\+M\+U\+T\+E\+X\+\_\+\+V\+AR(\begin{DoxyParamCaption}\item[{}]{name,  }\item[{}]{value }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}
+\hyperlink{mtxhelper_8h_a55c0f67bdaea782c1da1e4642d6af0c2}{LOCK\_VAR\_MUTEX}(name) \(\backslash\)
+    name = value; \(\backslash\)
+    UNLOCK\_VAR\_MUTEX(name)
+\end{DoxyCode}
+\mbox{\Hypertarget{mtxhelper_8h_a32b4edda6cc315ec81e72099c7073258}\label{mtxhelper_8h_a32b4edda6cc315ec81e72099c7073258}} 
+\index{mtxhelper.\+h@{mtxhelper.\+h}!U\+N\+L\+O\+C\+K\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX@{U\+N\+L\+O\+C\+K\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX}}
+\index{U\+N\+L\+O\+C\+K\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX@{U\+N\+L\+O\+C\+K\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX}!mtxhelper.\+h@{mtxhelper.\+h}}
+\subsubsection{\texorpdfstring{U\+N\+L\+O\+C\+K\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX}{UNLOCK\_VAR\_MUTEX}}
+{\footnotesize\ttfamily \#define U\+N\+L\+O\+C\+K\+\_\+\+V\+A\+R\+\_\+\+M\+U\+T\+EX(\begin{DoxyParamCaption}\item[{}]{name }\end{DoxyParamCaption})~pthread\+\_\+mutex\+\_\+unlock(\&name\+\_\+mutex);}
+

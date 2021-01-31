@@ -1,0 +1,121 @@
+\hypertarget{main_8c}{}\section{src/main.c File Reference}
+\label{main_8c}\index{src/main.\+c@{src/main.\+c}}
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+{\ttfamily \#include $<$signal.\+h$>$}\newline
+{\ttfamily \#include $<$pthread.\+h$>$}\newline
+{\ttfamily \#include $<$readline/readline.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}tui.\+h\char`\"{}}\newline
+Include dependency graph for main.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{main_8c_a1a87b5de5ced9dbf84b4feefc3b01ccf}{main\+\_\+int\+\_\+handler} (int signum)
+\begin{DoxyCompactList}\small\item\em Catches S\+I\+G\+I\+NT, and flags an exit is requested. \end{DoxyCompactList}\item 
+void $\ast$ \hyperlink{main_8c_a20debbe95676c5ff3a1a27dbfa796ae9}{thread\+\_\+tui\+\_\+process} (void $\ast$vargp)
+\begin{DoxyCompactList}\small\item\em Threaded function for T\+UI. \end{DoxyCompactList}\item 
+int \hyperlink{main_8c_a0ddf1224851353fc92bfbff6f499fa97}{main} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+pthread\+\_\+t \hyperlink{main_8c_ae5bdba207b41f4c04ed1fa44c551d2a4}{tid\+\_\+tui}
+\begin{DoxyCompactList}\small\item\em Declare T\+UI thread id storage. \end{DoxyCompactList}\item 
+volatile bool \hyperlink{main_8c_acfdf41beb20339e3a44000934094a8df}{caught\+\_\+sigint} = false
+\begin{DoxyCompactList}\small\item\em Declare bool for if we caught a signit. \end{DoxyCompactList}\item 
+volatile bool \hyperlink{main_8c_a73a1fdd4265d86440f3a2a444db31e0b}{do\+\_\+exit} = false
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{main_8c_a0ddf1224851353fc92bfbff6f499fa97}\label{main_8c_a0ddf1224851353fc92bfbff6f499fa97}} 
+\index{main.\+c@{main.\+c}!main@{main}}
+\index{main@{main}!main.\+c@{main.\+c}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8c_a1a87b5de5ced9dbf84b4feefc3b01ccf}\label{main_8c_a1a87b5de5ced9dbf84b4feefc3b01ccf}} 
+\index{main.\+c@{main.\+c}!main\+\_\+int\+\_\+handler@{main\+\_\+int\+\_\+handler}}
+\index{main\+\_\+int\+\_\+handler@{main\+\_\+int\+\_\+handler}!main.\+c@{main.\+c}}
+\subsubsection{\texorpdfstring{main\+\_\+int\+\_\+handler()}{main\_int\_handler()}}
+{\footnotesize\ttfamily void main\+\_\+int\+\_\+handler (\begin{DoxyParamCaption}\item[{int}]{signum }\end{DoxyParamCaption})}
+
+
+
+Catches S\+I\+G\+I\+NT, and flags an exit is requested. 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=244pt]{main_8c_a1a87b5de5ced9dbf84b4feefc3b01ccf_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8c_a20debbe95676c5ff3a1a27dbfa796ae9}\label{main_8c_a20debbe95676c5ff3a1a27dbfa796ae9}} 
+\index{main.\+c@{main.\+c}!thread\+\_\+tui\+\_\+process@{thread\+\_\+tui\+\_\+process}}
+\index{thread\+\_\+tui\+\_\+process@{thread\+\_\+tui\+\_\+process}!main.\+c@{main.\+c}}
+\subsubsection{\texorpdfstring{thread\+\_\+tui\+\_\+process()}{thread\_tui\_process()}}
+{\footnotesize\ttfamily void$\ast$ thread\+\_\+tui\+\_\+process (\begin{DoxyParamCaption}\item[{void $\ast$}]{vargp }\end{DoxyParamCaption})}
+
+
+
+Threaded function for T\+UI. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8c_a20debbe95676c5ff3a1a27dbfa796ae9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=253pt]{main_8c_a20debbe95676c5ff3a1a27dbfa796ae9_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{main_8c_acfdf41beb20339e3a44000934094a8df}\label{main_8c_acfdf41beb20339e3a44000934094a8df}} 
+\index{main.\+c@{main.\+c}!caught\+\_\+sigint@{caught\+\_\+sigint}}
+\index{caught\+\_\+sigint@{caught\+\_\+sigint}!main.\+c@{main.\+c}}
+\subsubsection{\texorpdfstring{caught\+\_\+sigint}{caught\_sigint}}
+{\footnotesize\ttfamily volatile bool caught\+\_\+sigint = false}
+
+
+
+Declare bool for if we caught a signit. 
+
+\mbox{\Hypertarget{main_8c_a73a1fdd4265d86440f3a2a444db31e0b}\label{main_8c_a73a1fdd4265d86440f3a2a444db31e0b}} 
+\index{main.\+c@{main.\+c}!do\+\_\+exit@{do\+\_\+exit}}
+\index{do\+\_\+exit@{do\+\_\+exit}!main.\+c@{main.\+c}}
+\subsubsection{\texorpdfstring{do\+\_\+exit}{do\_exit}}
+{\footnotesize\ttfamily volatile bool do\+\_\+exit = false}
+
+\mbox{\Hypertarget{main_8c_ae5bdba207b41f4c04ed1fa44c551d2a4}\label{main_8c_ae5bdba207b41f4c04ed1fa44c551d2a4}} 
+\index{main.\+c@{main.\+c}!tid\+\_\+tui@{tid\+\_\+tui}}
+\index{tid\+\_\+tui@{tid\+\_\+tui}!main.\+c@{main.\+c}}
+\subsubsection{\texorpdfstring{tid\+\_\+tui}{tid\_tui}}
+{\footnotesize\ttfamily pthread\+\_\+t tid\+\_\+tui}
+
+
+
+Declare T\+UI thread id storage. 
+
